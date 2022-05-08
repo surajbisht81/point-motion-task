@@ -1,0 +1,35 @@
+
+.manageProducts{
+    margin: 20px;
+    margin-left: 12%;
+}
+
+.manageProducts > form > section > .manageProducts__boxes > .input{
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 2px 5px;
+    margin-top: 10px;
+    width: 20vw;
+}
+
+.manageProducts__boxes{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin-right: 20px;
+    
+}
+
+.manageProducts > form > button{
+    color: white;
+    background-color: #00BFFF;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    margin: 10px auto;
+}
+
+form > section{
+    display: flex;
+}
